@@ -2,7 +2,7 @@
 toto=$(curl -s "http://ifconfig.me")
 #Displays the variable's value
 #echo $toto
-curl -s -X PUT "https://api.cloudflare.com/client/v4/zones/USE_YOUR_OWN_/dns_records/3402df2ab56ac30d7a7146870ceb607d" \
+curl -s -X PUT "https://api.cloudflare.com/client/v4/zones/USE_YOUR_OWN_/dns_records/3402df2ab5USE_YOUR_OWN_870ceb607d" \
      -H "Content-Type:application/json" \
      -H "X-Auth-Email:YOUR_CLOUDFLARE_EMAIL@SOMETHING.CA" \
      -H "X-Auth-Key:c031999c8e14USE_YOUR_OWN_cc37602c7c1c" \
